@@ -1,4 +1,4 @@
-vr-supermarket-ai-service/
+```vr-supermarket-ai-service/
 ├── app/                        # THƯ MỤC LÕI
 │   ├── api/                    # Tầng Interface: Nơi định nghĩa các API Endpoints
 │   │   ├── routes/             
@@ -30,9 +30,17 @@ vr-supermarket-ai-service/
 ├── .env.example                
 ├── .gitignore                  
 ├── requirements.txt            # Danh sách thư viện 
-└── README.md                   
+└── README.md
+```             
 
-<!-- /usr/bin/python3 -m venv .venv
+# 1. Tạo môi trường ảo (sử dụng Python 3.9)
+/usr/bin/python3 -m venv .venv
+
+# 2. Kích hoạt môi trường
 source .venv/bin/activate
+
+# 3. Cài đặt các thư viện phụ thuộc
 pip install -r requirements.txt
-uvicorn app.main:app --host 0.0.0.0 --port 8080 --reload -->
+
+# 4. Khởi động server FastAPI
+uvicorn app.main:app --host 0.0.0.0 --port 8080 --reload
