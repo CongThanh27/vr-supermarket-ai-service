@@ -33,14 +33,14 @@
 └── README.md
 ```             
 
-# 1. Tạo môi trường ảo (sử dụng Python 3.9)
+### 1. Tạo môi trường ảo (sử dụng Python 3.9)
 /usr/bin/python3 -m venv .venv
 
-# 2. Kích hoạt môi trường
+### 2. Kích hoạt môi trường
 source .venv/bin/activate
 
-# 3. Cài đặt các thư viện phụ thuộc
+### 3. Cài đặt các thư viện phụ thuộc
 pip install -r requirements.txt
 
-# 4. Khởi động server FastAPI
+### 4. Khởi động server FastAPI
 uvicorn app.main:app --host 0.0.0.0 --port 8080 --reload
