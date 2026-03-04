@@ -1,4 +1,3 @@
-
 # Python bytecode
 __pycache__/
 *.py[cod]
@@ -6,8 +5,10 @@ __pycache__/
 
 # Virtual environments
 .venv/
-venv/
+.env/
 env/
+
+
 
 # Packaging artifacts
 build/
